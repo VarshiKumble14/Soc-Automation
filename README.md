@@ -1,24 +1,23 @@
 # SOC Automation
 
 ## Objective
-[Brief Objective - Remove this afterwards]
-
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+To implement a fully automated Security Operations Center (SOC) by deploying a Wazuh instance for threat detection, integrating it with a SOAR platform for automated response orchestration, and establishing a comprehensive case management system using TheHive. This setup aims to enhance threat visibility, streamline incident response, and centralize investigation workflows.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+
+- SIEM Engineering: Deployed and configured Wazuh for log analysis, intrusion detection, and rule-based alerting integrated with Elasticsearch and Kibana.
+- SOAR Implementation: Built automated response playbooks using platforms like Cortex and Shuffle; automated IOC enrichment and containment workflows.
+- Case Management: Configured TheHive for alert ingestion, case templating, task assignment, and observable tracking.
+- Threat Intelligence Integration: Connected MISP and Cortex analyzers for real-time IOC correlation and enrichment.
+- Linux: Managed deployments using Linux servers, applying security hardening and performance tuning.
+- Visualization & Reporting: Designed custom Kibana dashboards to visualize threat data and SOC metrics.
+- Security Frameworks: Applied MITRE ATT&CK techniques for detection logic and case classifications and patterns.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
+
 
 - Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
